@@ -38,21 +38,11 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20 items-center">
           <div className="flex items-center space-x-3 cursor-pointer" onClick={() => scrollTo(SectionId.Home)}>
-            <div className="w-14 h-14 flex items-center justify-center">
-              <img 
-                src="https://asopalta.com.co/wp-content/uploads/2023/11/logo-asopalta-1.png" 
-                alt="ASOPALTA Logo" 
-                className="w-full h-full object-contain"
-              />
-            </div>
-            <div className="flex flex-col -space-y-1">
-              <span className="text-asopalta-dark font-bold text-xl tracking-tight leading-none">
-                ASOPALTA
-              </span>
-              <span className="text-asopalta-light text-[10px] font-bold tracking-[0.2em] uppercase">
-                Cultivando Progreso
-              </span>
-            </div>
+            <img 
+              src="/logo.png" 
+              alt="ASOPALTA - Cultivando Progreso" 
+              className="w-16 h-16 object-contain"
+            />
           </div>
 
           {/* Desktop Menu */}

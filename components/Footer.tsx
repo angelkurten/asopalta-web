@@ -27,17 +27,11 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-4 mb-8">
-              <div className="w-20 h-20 bg-asopalta-cream rounded-full p-2">
-                <img 
-                  src="https://asopalta.com.co/wp-content/uploads/2023/11/logo-asopalta-1.png" 
-                  alt="ASOPALTA Logo" 
-                  className="w-full h-full object-contain"
-                />
-              </div>
-              <div>
-                <span className="text-3xl font-black tracking-tighter uppercase block">ASOPALTA</span>
-                <span className="text-asopalta-light text-xs font-bold tracking-[0.2em] uppercase">Cultivando Progreso</span>
-              </div>
+              <img 
+                src="/logo.png" 
+                alt="ASOPALTA - Cultivando Progreso" 
+                className="w-24 h-24 object-contain"
+              />
             </div>
             <p className="text-white/50 max-w-md leading-relaxed text-lg">
               Desde 2010, liderando la transformación agroindustrial de Tamalameque a través de la cooperación y el desarrollo sostenible del sector palmero.
