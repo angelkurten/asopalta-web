@@ -4,9 +4,24 @@ import { SectionId, Activity } from '../types';
 
 const activities: Activity[] = [
   {
-    title: 'Preparación del Terreno',
-    description: 'Gestión y adecuación técnica de suelos para el cultivo eficiente de palma de aceite.',
-    icon: 'M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z'
+    title: 'Palma de Aceite',
+    description: 'Cultivo y procesamiento de palma de aceite con técnicas sostenibles y eficientes para maximizar la productividad.',
+    icon: 'M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z'
+  },
+  {
+    title: 'Cacao',
+    description: 'Producción de cacao de alta calidad, apoyando a los agricultores en técnicas de cultivo y fermentación.',
+    icon: 'M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z'
+  },
+  {
+    title: 'Mango y Otros Cultivos',
+    description: 'Diversificación agrícola con mango y otros productos agropecuarios para fortalecer la economía regional.',
+    icon: 'M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z'
+  },
+  {
+    title: 'Compostaje',
+    description: 'Transformación de residuos agrícolas en compost orgánico de alta calidad para mejorar los suelos.',
+    icon: 'M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15'
   },
   {
     title: 'Asistencia Técnica',
@@ -15,23 +30,8 @@ const activities: Activity[] = [
   },
   {
     title: 'Capacitación Gremial',
-    description: 'Programas de formación continua para asociados sobre tecnología y manejo ambiental.',
+    description: 'Programas de formación continua para asociados sobre tecnología, innovación y manejo ambiental.',
     icon: 'M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253'
-  },
-  {
-    title: 'Gestión Administrativa',
-    description: 'Soporte en tesorería, contabilidad y representación legal para la defensa de intereses del sector.',
-    icon: 'M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z'
-  },
-  {
-    title: 'Insumos y Logística',
-    description: 'Coordinación para la entrega de fertilizantes y transporte de productos agrícolas regionales.',
-    icon: 'M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4'
-  },
-  {
-    title: 'Sostenibilidad',
-    description: 'Proyectos de conservación ambiental y manejo ejemplar del entorno productivo.',
-    icon: 'M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z'
   }
 ];
 

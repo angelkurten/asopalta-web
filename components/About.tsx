@@ -44,8 +44,8 @@ const About: React.FC = () => {
                   <span className="w-2 h-2 bg-asopalta-primary rounded-full mr-2"></span>
                   Misión
                 </h3>
-                <p className="text-asopalta-dark/60 text-sm italic">
-                  Promover el desarrollo sostenible del sector agroindustrial, fortaleciendo la organización de los productores y mejorando la calidad de vida de las familias rurales.
+                <p className="text-asopalta-dark/60 text-sm">
+                  Promover el desarrollo sostenible del sector agroindustrial en la región, fortaleciendo la organización de los productores de <strong>palma de aceite, cacao, mango y otros productos agropecuarios</strong>. Buscando mejorar la productividad, la tecnología y la calidad de vida de las familias rurales, fomentando la asociatividad, la capacitación y la responsabilidad ambiental.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-xl border-t-4 border-asopalta-yellow shadow-sm hover:shadow-md transition-shadow">
@@ -53,8 +53,8 @@ const About: React.FC = () => {
                   <span className="w-2 h-2 bg-asopalta-yellow rounded-full mr-2"></span>
                   Visión
                 </h3>
-                <p className="text-asopalta-dark/60 text-sm italic">
-                  Ser reconocida para el 2030 como una organización líder en el Cesar, destacada por su compromiso con la sostenibilidad y el bienestar de sus asociados.
+                <p className="text-asopalta-dark/60 text-sm">
+                  Para el año 2030, ASOPALTA será reconocida como una organización líder en el desarrollo agroindustrial del Cesar, destacada por su compromiso con la sostenibilidad, la innovación y el bienestar de sus asociados. Aspiramos a consolidarnos como un referente regional en la transformación productiva y en la generación de oportunidades económicas para el campo.
                 </p>
               </div>
             </div>

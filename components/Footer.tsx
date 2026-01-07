@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
               />
             </div>
             <p className="text-white/50 max-w-md leading-relaxed text-lg">
-              Desde 2010, liderando la transformación agroindustrial de Tamalameque a través de la cooperación y el desarrollo sostenible del sector palmero.
+              Desde 2010, liderando la transformación agroindustrial de Tamalameque a través de la cooperación y el desarrollo sostenible del sector agropecuario: palma de aceite, cacao, mango y más.
             </p>
           </div>
 

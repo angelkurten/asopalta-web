@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
           Fuerza <span className="text-asopalta-yellow italic">Agroindustrial</span>
         </h1>
         <p className="text-xl md:text-2xl text-asopalta-cream/90 mb-12 max-w-3xl mx-auto leading-relaxed font-light">
-          Impulsando el futuro de la palmicultura en Tamalameque con tecnología, unión y sostenibilidad.
+          Impulsando el desarrollo agroindustrial de Tamalameque en palma de aceite, cacao, mango y otros productos agropecuarios.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
           <button 
