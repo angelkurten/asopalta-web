@@ -60,11 +60,18 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center text-white/30 text-[10px] font-bold tracking-widest uppercase">
-          <p>© {currentYear} ASOCIACIÓN AGROINDUSTRIAL DE PALMICULTORES DE TAMALAMEQUE</p>
-          <div className="flex space-x-6 mt-4 md:mt-0">
-            <span className="hover:text-white cursor-pointer transition-colors">Privacidad</span>
-            <span className="hover:text-white cursor-pointer transition-colors">Términos</span>
-          </div>
+          <p>© 2025 ASOCIACIÓN AGROINDUSTRIAL DE PALMICULTORES DE TAMALAMEQUE. TODOS LOS DERECHOS RESERVADOS.</p>
+          <p className="mt-4 md:mt-0">
+            Desarrollado por{' '}
+            <a 
+              href="https://github.com/angelkurten" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-asopalta-yellow hover:text-white transition-colors"
+            >
+              Angel Kürten
+            </a>
+          </p>
         </div>
       </div>
     </footer>
