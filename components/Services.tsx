@@ -5,7 +5,7 @@ import { SectionId, Activity } from '../types';
 const activities: Activity[] = [
   {
     title: 'Palma de Aceite',
-    description: 'Cultivo y procesamiento de palma de aceite con técnicas sostenibles y eficientes para maximizar la productividad.',
+    description: 'Establecimiento de cultivo y comercialización de fruto de palma aceitera con técnicas sostenibles y eficientes.',
     icon: 'M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z'
   },
   {
