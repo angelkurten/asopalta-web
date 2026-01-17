@@ -65,12 +65,6 @@ const Contact: React.FC = () => {
           </a>
         </div>
 
-        {/* NIT */}
-        <div className="mt-12 text-center">
-          <p className="text-asopalta-dark/50 text-sm font-medium">
-            NIT: <span className="text-asopalta-dark font-bold">900.392.659-9</span>
-          </p>
-        </div>
       </div>
     </section>
   );
