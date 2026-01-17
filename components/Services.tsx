@@ -10,7 +10,7 @@ const activities: Activity[] = [
   },
   {
     title: 'Cacao',
-    description: 'Producción de cacao de alta calidad, apoyando a los agricultores en técnicas de cultivo y fermentación.',
+    description: 'Establecimiento de cultivo, producción, transformación y comercialización de cacao de alta calidad.',
     icon: 'M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z'
   },
   {
